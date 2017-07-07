@@ -46,11 +46,29 @@ body {
   display: grid;
 }
 /* MEDIA QUERIES*/
-@media only screen and (max-width: 880px) {
-  .red {
-    background-color: blue;
+@media only screen and (max-width: 768px) {
+  .white {
+    background-color: yellow;
+  }
+  p {
+    color: #00ff00;
+    font-size: 3em;
   }
   .teal {
     background-color: green;
   }
+}
+@media only screen and (max-width: 375px) {
+  .white {
+    background-color: blue;
+  }
+  p {
+    color: #00ffff;
+    font-size: 1em;
+  }
+  .teal {
+    background-color: blue;
+  }
+  .blue {
+    background-color: red;
 }
