@@ -45,3 +45,12 @@ p {
 body {
   display: grid;
 }
+/* MEDIA QUERIES*/
+@media only screen and (max-width: 880px) {
+  .red {
+    background-color: blue;
+  }
+  .teal {
+    background-color: green;
+  }
+}
