@@ -46,7 +46,7 @@ body {
   display: grid;
 }
 /* MEDIA QUERIES*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 768px) {
   .white {
     background-color: yellow;
   }
@@ -58,7 +58,7 @@ body {
     background-color: green;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 375px) {
   .white {
     background-color: blue;
   }
@@ -71,4 +71,5 @@ body {
   }
   .blue {
     background-color: red;
+}
 }
