@@ -1,0 +1,47 @@
+.yellow {
+  background-color: yellow;
+}
+.size {
+  height: 200px;
+  padding: 15px;
+  border: 2px solid #000;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.teal {
+  background-color: #BCF4FF;
+}
+.black {
+  background-color: black;
+}
+.orange {
+  background-color: orange;
+}
+.white {
+  color: white;
+}
+.small {
+  height: 100px;
+  border: 2px solid #000;
+}
+p {
+  font-size: 1em;
+  font-weight: bold;
+}
+.boxing {
+  padding: 40px;
+}
+.medium {
+  height: 150px;
+  border: 2px solid #000;
+}
+body {
+  display: grid;
+}
